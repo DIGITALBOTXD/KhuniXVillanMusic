@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonX
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Khuni_X_Villan_Support_Group")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/lovingfriendsforever")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/XD_MUSIC_BOTZ")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/XD_BOTZZ")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,34 +76,34 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/a1485c66e31dfeb995bf6.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/85bf409cc1c370640fc8d.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/a1485c66e31dfeb995bf6.jpg",
+    "https://graph.org/file/c97f33d667443dd8e1087.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/19c7568fd413cb9e2c6a7.jpg"
 
-GLOBAL_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/19c7568fd413cb9e2c6a7.jpg"
 
-STATS_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+STATS_IMG_URL = "https://graph.org/file/19c7568fd413cb9e2c6a7.jpg"
 
-TELEGRAM_AUDIO_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/19c7568fd413cb9e2c6a7.jpg"
 
-TELEGRAM_VIDEO_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/19c7568fd413cb9e2c6a7.jpg"
 
-STREAM_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+STREAM_IMG_URL = "https://graph.org/file/19c7568fd413cb9e2c6a7.jpg"
 
-SOUNCLOUD_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/c97f33d667443dd8e1087.jpg"
 
-YOUTUBE_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/c97f33d667443dd8e1087.jpg"
 
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/c97f33d667443dd8e1087.jpg"
 
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/c97f33d667443dd8e1087.jpg"
 
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/c97f33d667443dd8e1087.jpg"
 
 
 def time_to_seconds(time):
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+            PING_IMG_URL = "https://graph.org/file/c97f33d667443dd8e1087.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/a1485c66e31dfeb995bf6.jpg"
+            START_IMG_URL = "https://graph.org/file/85bf409cc1c370640fc8d.jpg"
